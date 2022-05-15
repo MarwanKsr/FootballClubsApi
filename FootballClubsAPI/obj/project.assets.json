@@ -75,6 +75,29 @@
         "frameworkReferences": [
           "Microsoft.AspNetCore.App"
         ]
+      },
+      "Country.Business/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "Country.Entities": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Country.Business.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Country.Business.dll": {}
+        }
+      },
+      "Country.Entities/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/Country.Entities.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Country.Entities.dll": {}
+        }
       }
     }
   },
@@ -185,10 +208,21 @@
         "swashbuckle.aspnetcore.swaggerui.5.6.3.nupkg.sha512",
         "swashbuckle.aspnetcore.swaggerui.nuspec"
       ]
+    },
+    "Country.Business/1.0.0": {
+      "type": "project",
+      "path": "../ClubServise/Country.Business.csproj",
+      "msbuildProject": "../ClubServise/Country.Business.csproj"
+    },
+    "Country.Entities/1.0.0": {
+      "type": "project",
+      "path": "../Country.Entities/Country.Entities.csproj",
+      "msbuildProject": "../Country.Entities/Country.Entities.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net5.0": [
+      "Country.Business >= 1.0.0",
       "Swashbuckle.AspNetCore >= 5.6.3"
     ]
   },
@@ -223,7 +257,11 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\marwa\\OneDrive\\Masaüstü\\pratik\\Deneme\\FootballClubsAPI\\ClubServise\\Country.Business.csproj": {
+              "projectPath": "C:\\Users\\marwa\\OneDrive\\Masaüstü\\pratik\\Deneme\\FootballClubsAPI\\ClubServise\\Country.Business.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
