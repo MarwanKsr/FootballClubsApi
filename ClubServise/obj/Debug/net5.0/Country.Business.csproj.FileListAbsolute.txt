@@ -1,0 +1,15 @@
+C:\Users\marwa\OneDrive\Masaüstü\pratik\Deneme\FootballClubsAPI\ClubServise\obj\Debug\net5.0\Country.Business.csproj.AssemblyReference.cache
+C:\Users\marwa\OneDrive\Masaüstü\pratik\Deneme\FootballClubsAPI\ClubServise\obj\Debug\net5.0\Country.Business.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\marwa\OneDrive\Masaüstü\pratik\Deneme\FootballClubsAPI\ClubServise\obj\Debug\net5.0\Country.Business.AssemblyInfoInputs.cache
+C:\Users\marwa\OneDrive\Masaüstü\pratik\Deneme\FootballClubsAPI\ClubServise\obj\Debug\net5.0\Country.Business.AssemblyInfo.cs
+C:\Users\marwa\OneDrive\Masaüstü\pratik\Deneme\FootballClubsAPI\ClubServise\obj\Debug\net5.0\Country.Business.csproj.CoreCompileInputs.cache
+C:\Users\marwa\OneDrive\Masaüstü\pratik\Deneme\FootballClubsAPI\ClubServise\bin\Debug\net5.0\Country.Business.deps.json
+C:\Users\marwa\OneDrive\Masaüstü\pratik\Deneme\FootballClubsAPI\ClubServise\bin\Debug\net5.0\Country.Business.dll
+C:\Users\marwa\OneDrive\Masaüstü\pratik\Deneme\FootballClubsAPI\ClubServise\bin\Debug\net5.0\ref\Country.Business.dll
+C:\Users\marwa\OneDrive\Masaüstü\pratik\Deneme\FootballClubsAPI\ClubServise\bin\Debug\net5.0\Country.Business.pdb
+C:\Users\marwa\OneDrive\Masaüstü\pratik\Deneme\FootballClubsAPI\ClubServise\bin\Debug\net5.0\Country.Entities.dll
+C:\Users\marwa\OneDrive\Masaüstü\pratik\Deneme\FootballClubsAPI\ClubServise\bin\Debug\net5.0\Country.Entities.pdb
+C:\Users\marwa\OneDrive\Masaüstü\pratik\Deneme\FootballClubsAPI\ClubServise\obj\Debug\net5.0\Country.Business.csproj.CopyComplete
+C:\Users\marwa\OneDrive\Masaüstü\pratik\Deneme\FootballClubsAPI\ClubServise\obj\Debug\net5.0\Country.Business.dll
+C:\Users\marwa\OneDrive\Masaüstü\pratik\Deneme\FootballClubsAPI\ClubServise\obj\Debug\net5.0\ref\Country.Business.dll
+C:\Users\marwa\OneDrive\Masaüstü\pratik\Deneme\FootballClubsAPI\ClubServise\obj\Debug\net5.0\Country.Business.pdb

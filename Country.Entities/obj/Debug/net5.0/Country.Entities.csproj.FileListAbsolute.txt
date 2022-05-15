@@ -1,0 +1,12 @@
+C:\Users\marwa\OneDrive\Masaüstü\pratik\Deneme\FootballClubsAPI\Country.Entities\bin\Debug\net5.0\Country.Entities.deps.json
+C:\Users\marwa\OneDrive\Masaüstü\pratik\Deneme\FootballClubsAPI\Country.Entities\bin\Debug\net5.0\Country.Entities.dll
+C:\Users\marwa\OneDrive\Masaüstü\pratik\Deneme\FootballClubsAPI\Country.Entities\bin\Debug\net5.0\ref\Country.Entities.dll
+C:\Users\marwa\OneDrive\Masaüstü\pratik\Deneme\FootballClubsAPI\Country.Entities\bin\Debug\net5.0\Country.Entities.pdb
+C:\Users\marwa\OneDrive\Masaüstü\pratik\Deneme\FootballClubsAPI\Country.Entities\obj\Debug\net5.0\Country.Entities.csproj.AssemblyReference.cache
+C:\Users\marwa\OneDrive\Masaüstü\pratik\Deneme\FootballClubsAPI\Country.Entities\obj\Debug\net5.0\Country.Entities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\marwa\OneDrive\Masaüstü\pratik\Deneme\FootballClubsAPI\Country.Entities\obj\Debug\net5.0\Country.Entities.AssemblyInfoInputs.cache
+C:\Users\marwa\OneDrive\Masaüstü\pratik\Deneme\FootballClubsAPI\Country.Entities\obj\Debug\net5.0\Country.Entities.AssemblyInfo.cs
+C:\Users\marwa\OneDrive\Masaüstü\pratik\Deneme\FootballClubsAPI\Country.Entities\obj\Debug\net5.0\Country.Entities.csproj.CoreCompileInputs.cache
+C:\Users\marwa\OneDrive\Masaüstü\pratik\Deneme\FootballClubsAPI\Country.Entities\obj\Debug\net5.0\Country.Entities.dll
+C:\Users\marwa\OneDrive\Masaüstü\pratik\Deneme\FootballClubsAPI\Country.Entities\obj\Debug\net5.0\ref\Country.Entities.dll
+C:\Users\marwa\OneDrive\Masaüstü\pratik\Deneme\FootballClubsAPI\Country.Entities\obj\Debug\net5.0\Country.Entities.pdb
