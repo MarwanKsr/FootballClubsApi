@@ -13,3 +13,7 @@ C:\Users\marwa\OneDrive\Masaüstü\pratik\Deneme\FootballClubsAPI\ClubServise\ob
 C:\Users\marwa\OneDrive\Masaüstü\pratik\Deneme\FootballClubsAPI\ClubServise\obj\Debug\net5.0\Country.Business.dll
 C:\Users\marwa\OneDrive\Masaüstü\pratik\Deneme\FootballClubsAPI\ClubServise\obj\Debug\net5.0\ref\Country.Business.dll
 C:\Users\marwa\OneDrive\Masaüstü\pratik\Deneme\FootballClubsAPI\ClubServise\obj\Debug\net5.0\Country.Business.pdb
+C:\Users\marwa\OneDrive\Masaüstü\pratik\Deneme\FootballClubsAPI\ClubServise\bin\Debug\net5.0\Country.DataAccess.dll
+C:\Users\marwa\OneDrive\Masaüstü\pratik\Deneme\FootballClubsAPI\ClubServise\bin\Debug\net5.0\Country.DataAccess.pdb
+C:\Users\marwa\OneDrive\Masaüstü\pratik\Deneme\FootballClubsAPI\ClubServise\bin\Debug\net5.0\Country.DataTransferObjects.dll
+C:\Users\marwa\OneDrive\Masaüstü\pratik\Deneme\FootballClubsAPI\ClubServise\bin\Debug\net5.0\Country.DataTransferObjects.pdb

@@ -1,4 +1,6 @@
 using Country.Business;
+using Country.Business.Mapping;
+using Country.DataAccess.Repositoris;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -34,6 +36,8 @@ namespace FootballClubsAPI
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "FootballClubsAPI", Version = "v1" });
             });
             services.AddScoped<IClubServise, ClubServise>();
+            services.AddScoped<IClubRepository, ClubRepository>();
+            services.AddAutoMapper(typeof(MapProfile));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

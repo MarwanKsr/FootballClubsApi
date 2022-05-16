@@ -1,4 +1,5 @@
-﻿using Country.Entities;
+﻿using Country.DataTransferObjects.Responses;
+using Country.Entities;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,6 +10,7 @@ namespace Country.Business
 {
      public interface IClubServise
     {
-        Task<List<Club>> GetClubs();
+        Task<IList<ClubDisplayResponse>> GetClubs();
+        Task<IList<Club>> GetClubsWithAllDetails();
     }
 }

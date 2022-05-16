@@ -29,3 +29,14 @@ C:\Users\marwa\OneDrive\Masaüstü\pratik\Deneme\FootballClubsAPI\FootballClubsA
 C:\Users\marwa\OneDrive\Masaüstü\pratik\Deneme\FootballClubsAPI\FootballClubsAPI\obj\Debug\net5.0\ref\FootballClubsAPI.dll
 C:\Users\marwa\OneDrive\Masaüstü\pratik\Deneme\FootballClubsAPI\FootballClubsAPI\obj\Debug\net5.0\FootballClubsAPI.pdb
 C:\Users\marwa\OneDrive\Masaüstü\pratik\Deneme\FootballClubsAPI\FootballClubsAPI\obj\Debug\net5.0\FootballClubsAPI.genruntimeconfig.cache
+C:\Users\marwa\OneDrive\Masaüstü\pratik\Deneme\FootballClubsAPI\FootballClubsAPI\bin\Debug\net5.0\Country.DataAccess.dll
+C:\Users\marwa\OneDrive\Masaüstü\pratik\Deneme\FootballClubsAPI\FootballClubsAPI\bin\Debug\net5.0\Country.DataAccess.pdb
+C:\Users\marwa\OneDrive\Masaüstü\pratik\Deneme\FootballClubsAPI\FootballClubsAPI\obj\Debug\net5.0\FootballClubsAPI.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\marwa\OneDrive\Masaüstü\pratik\Deneme\FootballClubsAPI\FootballClubsAPI\bin\Debug\net5.0\AutoMapper.dll
+C:\Users\marwa\OneDrive\Masaüstü\pratik\Deneme\FootballClubsAPI\FootballClubsAPI\bin\Debug\net5.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\marwa\OneDrive\Masaüstü\pratik\Deneme\FootballClubsAPI\FootballClubsAPI\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\marwa\OneDrive\Masaüstü\pratik\Deneme\FootballClubsAPI\FootballClubsAPI\bin\Debug\net5.0\Microsoft.Extensions.Options.dll
+C:\Users\marwa\OneDrive\Masaüstü\pratik\Deneme\FootballClubsAPI\FootballClubsAPI\bin\Debug\net5.0\Microsoft.Extensions.Primitives.dll
+C:\Users\marwa\OneDrive\Masaüstü\pratik\Deneme\FootballClubsAPI\FootballClubsAPI\bin\Debug\net5.0\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\marwa\OneDrive\Masaüstü\pratik\Deneme\FootballClubsAPI\FootballClubsAPI\bin\Debug\net5.0\Country.DataTransferObjects.dll
+C:\Users\marwa\OneDrive\Masaüstü\pratik\Deneme\FootballClubsAPI\FootballClubsAPI\bin\Debug\net5.0\Country.DataTransferObjects.pdb

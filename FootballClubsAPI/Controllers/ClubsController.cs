@@ -22,10 +22,18 @@ namespace FootballClubsAPI.Controllers
         }
 
         [HttpGet]
-        public async Task<IActionResult> GetClubs()
+        public async Task<IActionResult> GetClubsWithAllDetails()
         {
-            var clubs = await Servise.GetClubs();
+            var clubs = await Servise.GetClubsWithAllDetails();
             return Ok(clubs);
         }
+
+        [HttpGet]
+        public async Task<IActionResult> GetClubs()
+        {
+            var _clubs = await Servise.GetClubs();
+            return Ok(_clubs);
+        }
+        
     }
 }

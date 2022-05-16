@@ -4,30 +4,33 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Country.DataAccess.Repositoris;
+using Country.DataTransferObjects.Responses;
+using AutoMapper;
 
 namespace Country.Business
 {
     public class ClubServise : IClubServise
     {
-        private List<Club> Clubs;
+        public readonly IClubRepository clubRepository;
+        private readonly IMapper mapper;
 
-        public ClubServise()
+        public ClubServise (IClubRepository clubRepository, IMapper mapper )
         {
-            Clubs = new List<Club>
-            {
-                new Club { Id = 1, Name = "Real Madriad", CoachsName = "Carlo Ancelotti",
-                    StadiumName = "Santiago Bernabéu", PresidentsName = "Florentino Pérez" },
-                new Club { Id = 2, Name = "Barcelona", CoachsName = "Xavi hernandez",
-                    StadiumName = "Camp nou", PresidentsName = "Joan Laporta" }
-            };
+            this.clubRepository = clubRepository;
+            this.mapper = mapper;
         }
 
-
-
-        public async Task<List<Club>> GetClubs()
+        public async Task<IList<ClubDisplayResponse>> GetClubs()
         {
-            return Clubs;
+            var clubs = await clubRepository.GetAll();
+            var result =  mapper.Map<IList<ClubDisplayResponse>>(clubs);
+            return  result;
         }
 
+        public async Task<IList<Club>> GetClubsWithAllDetails()
+        {
+            return await clubRepository.GetAll();
+        }
     }
 }

@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "Country.DataTransferObjects/1.0.0": {
+        "dependencies": {
+          "Country.Entities": "1.0.0"
+        },
+        "runtime": {
+          "Country.DataTransferObjects.dll": {}
+        }
+      },
+      "Country.Entities/1.0.0": {
+        "runtime": {
+          "Country.Entities.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Country.DataTransferObjects/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Country.Entities/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

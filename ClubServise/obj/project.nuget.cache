@@ -1,8 +1,16 @@
 {
   "version": 2,
-  "dgSpecHash": "VGeM8+IFLWe0RF21e9EWVOOT46NOItqulAzGPpHRnD+laegjkSWgGQWwM0URfQUFDPw5/C4uJOwh44FYLPlPYA==",
+  "dgSpecHash": "0eTCi4A6YEE8az3G7cCmAQ0TZ+s+onvPVd193XfsXOfBNXONicq0GKBsyMvKDFuQIZCrPqW2Q2sT5sQbUHHRsQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\marwa\\OneDrive\\Masaüstü\\pratik\\Deneme\\FootballClubsAPI\\ClubServise\\Country.Business.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\marwa\\.nuget\\packages\\automapper\\11.0.0\\automapper.11.0.0.nupkg.sha512",
+    "C:\\Users\\marwa\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\11.0.0\\automapper.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",
+    "C:\\Users\\marwa\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
+    "C:\\Users\\marwa\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\marwa\\.nuget\\packages\\microsoft.extensions.options\\6.0.0\\microsoft.extensions.options.6.0.0.nupkg.sha512",
+    "C:\\Users\\marwa\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\microsoft.extensions.primitives.6.0.0.nupkg.sha512",
+    "C:\\Users\\marwa\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

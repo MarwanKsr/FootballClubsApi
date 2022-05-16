@@ -1,0 +1,17 @@
+C:\Users\marwa\OneDrive\Masaüstü\pratik\Deneme\FootballClubsAPI\Country.DataAccess\bin\Debug\net5.0\Country.DataAccess.deps.json
+C:\Users\marwa\OneDrive\Masaüstü\pratik\Deneme\FootballClubsAPI\Country.DataAccess\bin\Debug\net5.0\Country.DataAccess.dll
+C:\Users\marwa\OneDrive\Masaüstü\pratik\Deneme\FootballClubsAPI\Country.DataAccess\bin\Debug\net5.0\ref\Country.DataAccess.dll
+C:\Users\marwa\OneDrive\Masaüstü\pratik\Deneme\FootballClubsAPI\Country.DataAccess\bin\Debug\net5.0\Country.DataAccess.pdb
+C:\Users\marwa\OneDrive\Masaüstü\pratik\Deneme\FootballClubsAPI\Country.DataAccess\bin\Debug\net5.0\Country.Entities.dll
+C:\Users\marwa\OneDrive\Masaüstü\pratik\Deneme\FootballClubsAPI\Country.DataAccess\bin\Debug\net5.0\Country.Entities.pdb
+C:\Users\marwa\OneDrive\Masaüstü\pratik\Deneme\FootballClubsAPI\Country.DataAccess\obj\Debug\net5.0\Country.DataAccess.csproj.AssemblyReference.cache
+C:\Users\marwa\OneDrive\Masaüstü\pratik\Deneme\FootballClubsAPI\Country.DataAccess\obj\Debug\net5.0\Country.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\marwa\OneDrive\Masaüstü\pratik\Deneme\FootballClubsAPI\Country.DataAccess\obj\Debug\net5.0\Country.DataAccess.AssemblyInfoInputs.cache
+C:\Users\marwa\OneDrive\Masaüstü\pratik\Deneme\FootballClubsAPI\Country.DataAccess\obj\Debug\net5.0\Country.DataAccess.AssemblyInfo.cs
+C:\Users\marwa\OneDrive\Masaüstü\pratik\Deneme\FootballClubsAPI\Country.DataAccess\obj\Debug\net5.0\Country.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\marwa\OneDrive\Masaüstü\pratik\Deneme\FootballClubsAPI\Country.DataAccess\obj\Debug\net5.0\Country.DataAccess.csproj.CopyComplete
+C:\Users\marwa\OneDrive\Masaüstü\pratik\Deneme\FootballClubsAPI\Country.DataAccess\obj\Debug\net5.0\Country.DataAccess.dll
+C:\Users\marwa\OneDrive\Masaüstü\pratik\Deneme\FootballClubsAPI\Country.DataAccess\obj\Debug\net5.0\ref\Country.DataAccess.dll
+C:\Users\marwa\OneDrive\Masaüstü\pratik\Deneme\FootballClubsAPI\Country.DataAccess\obj\Debug\net5.0\Country.DataAccess.pdb
+C:\Users\marwa\OneDrive\Masaüstü\pratik\Deneme\FootballClubsAPI\Country.DataAccess\bin\Debug\net5.0\Country.DataTransferObjects.dll
+C:\Users\marwa\OneDrive\Masaüstü\pratik\Deneme\FootballClubsAPI\Country.DataAccess\bin\Debug\net5.0\Country.DataTransferObjects.pdb
