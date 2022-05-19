@@ -1,14 +1,15 @@
-﻿using Country.Entities;
+﻿
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Country.DataAccess.Repositoris;
-using Country.DataTransferObjects.Responses;
 using AutoMapper;
+using Catalog.DataAccess.Repositoris;
+using Catalog.DataTransferObjects.Responses;
+using Catalog.Entities;
 
-namespace Country.Business
+namespace Catalog.Business
 {
     public class ClubServise : IClubServise
     {

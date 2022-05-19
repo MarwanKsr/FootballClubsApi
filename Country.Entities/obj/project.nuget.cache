@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "9FJ9xqwmf23q5LJGiCI9zxEZRuNdRlYCfq9GU5aqmv9eOuId+e4STewO6Z5BU9SIvqN5/FCk5Paj3fGitL+iIQ==",
+  "dgSpecHash": "6SQz1ZPO+kVMvMHcHPDXcrEKSzAUKLds9HC2Kqh/xfXLSYLQyXsp74ZXi9Fl+kp2LkPN6M7gW2GEtIZwiUnZfg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\marwa\\OneDrive\\Masaüstü\\pratik\\Deneme\\FootballClubsAPI\\Country.Entities\\Country.Entities.csproj",
+  "projectFilePath": "C:\\Users\\marwa\\OneDrive\\Masaüstü\\pratik\\Deneme\\FootballClubsAPI\\Country.Entities\\Catalog.Entities.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

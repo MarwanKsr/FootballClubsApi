@@ -1,5 +1,5 @@
-﻿using Country.Business;
-using Country.Entities;
+﻿
+using Catalog.Business;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using System;
@@ -21,12 +21,12 @@ namespace FootballClubsAPI.Controllers
             Servise = clubServise;
         }
 
-        [HttpGet]
+        /* [HttpGet]
         public async Task<IActionResult> GetClubsWithAllDetails()
         {
             var clubs = await Servise.GetClubsWithAllDetails();
             return Ok(clubs);
-        }
+        } */
 
         [HttpGet]
         public async Task<IActionResult> GetClubs()

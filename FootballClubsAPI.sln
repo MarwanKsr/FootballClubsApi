@@ -5,13 +5,13 @@ VisualStudioVersion = 16.0.32228.343
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FootballClubsAPI", "FootballClubsAPI\FootballClubsAPI.csproj", "{ED0A146B-E1DD-48FE-B1E5-550043C71D26}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Country.Entities", "Country.Entities\Country.Entities.csproj", "{06B55885-B8DB-44AD-9C2C-1DE3903E8C7A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Catalog.Entities", "Country.Entities\Catalog.Entities.csproj", "{06B55885-B8DB-44AD-9C2C-1DE3903E8C7A}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Country.Business", "ClubServise\Country.Business.csproj", "{68A11640-862D-4AA2-9CD8-520A331A4D07}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Catalog.Business", "ClubServise\Catalog.Business.csproj", "{68A11640-862D-4AA2-9CD8-520A331A4D07}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Country.DataAccess", "Country.DataAccess\Country.DataAccess.csproj", "{58053AD0-6DCA-4F97-AA14-FC128943E350}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Catalog.DataAccess", "Country.DataAccess\Catalog.DataAccess.csproj", "{58053AD0-6DCA-4F97-AA14-FC128943E350}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Country.DataTransferObjects", "Country.DataTransferObjects\Country.DataTransferObjects.csproj", "{42C3530C-9C20-466C-9694-AC644043F88B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Catalog.DataTransferObjects", "Country.DataTransferObjects\Catalog.DataTransferObjects.csproj", "{42C3530C-9C20-466C-9694-AC644043F88B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

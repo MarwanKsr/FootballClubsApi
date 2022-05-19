@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Country.DataAccess
+namespace Catalog.DataAccess
 {
     public class Class1
     {

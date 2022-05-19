@@ -1,0 +1,17 @@
+C:\Users\marwa\OneDrive\Masaüstü\pratik\Deneme\FootballClubsAPI\Country.DataAccess\bin\Debug\net5.0\Catalog.DataAccess.deps.json
+C:\Users\marwa\OneDrive\Masaüstü\pratik\Deneme\FootballClubsAPI\Country.DataAccess\bin\Debug\net5.0\Catalog.DataAccess.dll
+C:\Users\marwa\OneDrive\Masaüstü\pratik\Deneme\FootballClubsAPI\Country.DataAccess\bin\Debug\net5.0\ref\Catalog.DataAccess.dll
+C:\Users\marwa\OneDrive\Masaüstü\pratik\Deneme\FootballClubsAPI\Country.DataAccess\bin\Debug\net5.0\Catalog.DataAccess.pdb
+C:\Users\marwa\OneDrive\Masaüstü\pratik\Deneme\FootballClubsAPI\Country.DataAccess\bin\Debug\net5.0\Catalog.DataTransferObjects.dll
+C:\Users\marwa\OneDrive\Masaüstü\pratik\Deneme\FootballClubsAPI\Country.DataAccess\bin\Debug\net5.0\Catalog.Entities.dll
+C:\Users\marwa\OneDrive\Masaüstü\pratik\Deneme\FootballClubsAPI\Country.DataAccess\bin\Debug\net5.0\Catalog.DataTransferObjects.pdb
+C:\Users\marwa\OneDrive\Masaüstü\pratik\Deneme\FootballClubsAPI\Country.DataAccess\bin\Debug\net5.0\Catalog.Entities.pdb
+C:\Users\marwa\OneDrive\Masaüstü\pratik\Deneme\FootballClubsAPI\Country.DataAccess\obj\Debug\net5.0\Catalog.DataAccess.csproj.AssemblyReference.cache
+C:\Users\marwa\OneDrive\Masaüstü\pratik\Deneme\FootballClubsAPI\Country.DataAccess\obj\Debug\net5.0\Catalog.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\marwa\OneDrive\Masaüstü\pratik\Deneme\FootballClubsAPI\Country.DataAccess\obj\Debug\net5.0\Catalog.DataAccess.AssemblyInfoInputs.cache
+C:\Users\marwa\OneDrive\Masaüstü\pratik\Deneme\FootballClubsAPI\Country.DataAccess\obj\Debug\net5.0\Catalog.DataAccess.AssemblyInfo.cs
+C:\Users\marwa\OneDrive\Masaüstü\pratik\Deneme\FootballClubsAPI\Country.DataAccess\obj\Debug\net5.0\Catalog.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\marwa\OneDrive\Masaüstü\pratik\Deneme\FootballClubsAPI\Country.DataAccess\obj\Debug\net5.0\Catalog.DataAccess.csproj.CopyComplete
+C:\Users\marwa\OneDrive\Masaüstü\pratik\Deneme\FootballClubsAPI\Country.DataAccess\obj\Debug\net5.0\Catalog.DataAccess.dll
+C:\Users\marwa\OneDrive\Masaüstü\pratik\Deneme\FootballClubsAPI\Country.DataAccess\obj\Debug\net5.0\ref\Catalog.DataAccess.dll
+C:\Users\marwa\OneDrive\Masaüstü\pratik\Deneme\FootballClubsAPI\Country.DataAccess\obj\Debug\net5.0\Catalog.DataAccess.pdb

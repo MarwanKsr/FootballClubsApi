@@ -1,10 +1,12 @@
-using Country.Business;
-using Country.Business.Mapping;
-using Country.DataAccess.Repositoris;
+using Catalog.Business;
+using Catalog.Business.Mapping;
+using Catalog.DataAccess.Data;
+using Catalog.DataAccess.Repositoris;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
@@ -14,6 +16,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using static System.Collections.Immutable.ImmutableArray<T>;
 
 namespace FootballClubsAPI
 {
@@ -37,7 +40,8 @@ namespace FootballClubsAPI
             });
             services.AddScoped<IClubServise, ClubServise>();
             services.AddScoped<IClubRepository, ClubRepository>();
-            services.AddAutoMapper(typeof(MapProfile));
+            services.AddAutoMapper(typeof(MapProfile)); 
+            services.AddDbContext<CatalogDbContext>(ops => ops.UseSqlServer(Configuration.GetConnectionString("db")));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

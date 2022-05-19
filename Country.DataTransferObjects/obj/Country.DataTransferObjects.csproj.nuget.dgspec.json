@@ -32,8 +32,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\marwa\\OneDrive\\Masaüstü\\pratik\\Deneme\\FootballClubsAPI\\Country.Entities\\Country.Entities.csproj": {
-                "projectPath": "C:\\Users\\marwa\\OneDrive\\Masaüstü\\pratik\\Deneme\\FootballClubsAPI\\Country.Entities\\Country.Entities.csproj"
+              "C:\\Users\\marwa\\OneDrive\\Masaüstü\\pratik\\Deneme\\FootballClubsAPI\\Country.Entities\\Catalog.Entities.csproj": {
+                "projectPath": "C:\\Users\\marwa\\OneDrive\\Masaüstü\\pratik\\Deneme\\FootballClubsAPI\\Country.Entities\\Catalog.Entities.csproj"
               }
             }
           }
@@ -66,12 +66,12 @@
         }
       }
     },
-    "C:\\Users\\marwa\\OneDrive\\Masaüstü\\pratik\\Deneme\\FootballClubsAPI\\Country.Entities\\Country.Entities.csproj": {
+    "C:\\Users\\marwa\\OneDrive\\Masaüstü\\pratik\\Deneme\\FootballClubsAPI\\Country.Entities\\Catalog.Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\marwa\\OneDrive\\Masaüstü\\pratik\\Deneme\\FootballClubsAPI\\Country.Entities\\Country.Entities.csproj",
-        "projectName": "Country.Entities",
-        "projectPath": "C:\\Users\\marwa\\OneDrive\\Masaüstü\\pratik\\Deneme\\FootballClubsAPI\\Country.Entities\\Country.Entities.csproj",
+        "projectUniqueName": "C:\\Users\\marwa\\OneDrive\\Masaüstü\\pratik\\Deneme\\FootballClubsAPI\\Country.Entities\\Catalog.Entities.csproj",
+        "projectName": "Catalog.Entities",
+        "projectPath": "C:\\Users\\marwa\\OneDrive\\Masaüstü\\pratik\\Deneme\\FootballClubsAPI\\Country.Entities\\Catalog.Entities.csproj",
         "packagesPath": "C:\\Users\\marwa\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\marwa\\OneDrive\\Masaüstü\\pratik\\Deneme\\FootballClubsAPI\\Country.Entities\\obj\\",
         "projectStyle": "PackageReference",

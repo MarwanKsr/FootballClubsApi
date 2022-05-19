@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "GeNz2EiZjrFfxuEzgjjbhYoNXsQS1oWSVrDR7W+O45lMeCZZcmX2MJ1XMbyWZfaP6/Iq14IC6yx+ivCN+0BPVA==",
+  "dgSpecHash": "UgCgUmDrpI2pQoPfoavTDMCESrrOqZP6QWO+/7sV01xLlztX2tWZKLDk4OFpzI1J/jvxdvoeKrPTcVhOHJDbpA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\marwa\\OneDrive\\Masaüstü\\pratik\\Deneme\\FootballClubsAPI\\Country.DataTransferObjects\\Country.DataTransferObjects.csproj",
+  "projectFilePath": "C:\\Users\\marwa\\OneDrive\\Masaüstü\\pratik\\Deneme\\FootballClubsAPI\\Country.DataTransferObjects\\Catalog.DataTransferObjects.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

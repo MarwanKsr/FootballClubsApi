@@ -2,28 +2,28 @@
   "version": 3,
   "targets": {
     "net5.0": {
-      "Country.Entities/1.0.0": {
+      "Catalog.Entities/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
         "compile": {
-          "bin/placeholder/Country.Entities.dll": {}
+          "bin/placeholder/Catalog.Entities.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Country.Entities.dll": {}
+          "bin/placeholder/Catalog.Entities.dll": {}
         }
       }
     }
   },
   "libraries": {
-    "Country.Entities/1.0.0": {
+    "Catalog.Entities/1.0.0": {
       "type": "project",
-      "path": "../Country.Entities/Country.Entities.csproj",
-      "msbuildProject": "../Country.Entities/Country.Entities.csproj"
+      "path": "../Country.Entities/Catalog.Entities.csproj",
+      "msbuildProject": "../Country.Entities/Catalog.Entities.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net5.0": [
-      "Country.Entities >= 1.0.0"
+      "Catalog.Entities >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -33,9 +33,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\marwa\\OneDrive\\Masaüstü\\pratik\\Deneme\\FootballClubsAPI\\Country.DataTransferObjects\\Country.DataTransferObjects.csproj",
-      "projectName": "Country.DataTransferObjects",
-      "projectPath": "C:\\Users\\marwa\\OneDrive\\Masaüstü\\pratik\\Deneme\\FootballClubsAPI\\Country.DataTransferObjects\\Country.DataTransferObjects.csproj",
+      "projectUniqueName": "C:\\Users\\marwa\\OneDrive\\Masaüstü\\pratik\\Deneme\\FootballClubsAPI\\Country.DataTransferObjects\\Catalog.DataTransferObjects.csproj",
+      "projectName": "Catalog.DataTransferObjects",
+      "projectPath": "C:\\Users\\marwa\\OneDrive\\Masaüstü\\pratik\\Deneme\\FootballClubsAPI\\Country.DataTransferObjects\\Catalog.DataTransferObjects.csproj",
       "packagesPath": "C:\\Users\\marwa\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\marwa\\OneDrive\\Masaüstü\\pratik\\Deneme\\FootballClubsAPI\\Country.DataTransferObjects\\obj\\",
       "projectStyle": "PackageReference",
@@ -58,8 +58,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\marwa\\OneDrive\\Masaüstü\\pratik\\Deneme\\FootballClubsAPI\\Country.Entities\\Country.Entities.csproj": {
-              "projectPath": "C:\\Users\\marwa\\OneDrive\\Masaüstü\\pratik\\Deneme\\FootballClubsAPI\\Country.Entities\\Country.Entities.csproj"
+            "C:\\Users\\marwa\\OneDrive\\Masaüstü\\pratik\\Deneme\\FootballClubsAPI\\Country.Entities\\Catalog.Entities.csproj": {
+              "projectPath": "C:\\Users\\marwa\\OneDrive\\Masaüstü\\pratik\\Deneme\\FootballClubsAPI\\Country.Entities\\Catalog.Entities.csproj"
             }
           }
         }
