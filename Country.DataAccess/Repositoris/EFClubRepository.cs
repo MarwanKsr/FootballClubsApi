@@ -1,5 +1,6 @@
-﻿
+﻿using Catalog.DataAccess.Data;
 using Catalog.Entities;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -8,22 +9,16 @@ using System.Threading.Tasks;
 
 namespace Catalog.DataAccess.Repositoris
 {
-    public class ClubRepository : IClubRepository
+    class EClubRepository : IClubRepository
     {
-        private List<Club> clubs;
-        
-        public ClubRepository()
+        public CatalogDbContext context;
+        public EClubRepository(CatalogDbContext context)
         {
-            clubs = new List<Club>
-            {
-                new Club { Id = 1, Name = "Real Madriad", CoachsName = "Carlo Ancelotti",
-                    StadiumName = "Santiago Bernabéu", PresidentsName = "Florentino Pérez" },
-                new Club { Id = 2, Name = "Barcelona", CoachsName = "Xavi hernandez",
-                    StadiumName = "Camp nou", PresidentsName = "Joan Laporta" }
-            };
+            this.context = context;
         }
         public async Task<IList<Club>> GetAll()
         {
+            var clubs = await context.Clubs.ToListAsync();
             return clubs;
         }
 

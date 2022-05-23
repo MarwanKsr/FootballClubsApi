@@ -22,6 +22,19 @@ namespace Catalog.Business
             this.mapper = mapper;
         }
 
+        public async Task<Club> GetClubById(int id)
+        {
+            var club = await clubRepository.GetById(id);
+            return club;
+        }
+
+        public async Task<IList<Club>> GetClubByName(string name)
+        {
+            var club = await clubRepository.GetClubByName(name);
+            return club;
+
+        }
+
         public async Task<IList<ClubDisplayResponse>> GetClubs()
         {
             var clubs = await clubRepository.GetAll();
@@ -29,9 +42,5 @@ namespace Catalog.Business
             return  result;
         }
 
-        public async Task<IList<Club>> GetClubsWithAllDetails()
-        {
-            return await clubRepository.GetAll();
-        }
     }
 }

@@ -10,6 +10,6 @@ namespace Catalog.DataAccess.Repositoris
 {
     public interface IClubRepository : IRepository<Club>
     {
-        Task<IEnumerable<Club>> GetClubByName(string name);
+        Task<IList<Club>> GetClubByName(string name);
     }
 }

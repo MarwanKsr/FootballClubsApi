@@ -34,6 +34,9 @@
             "projectReferences": {
               "C:\\Users\\marwa\\OneDrive\\Masaüstü\\pratik\\Deneme\\FootballClubsAPI\\Country.DataAccess\\Catalog.DataAccess.csproj": {
                 "projectPath": "C:\\Users\\marwa\\OneDrive\\Masaüstü\\pratik\\Deneme\\FootballClubsAPI\\Country.DataAccess\\Catalog.DataAccess.csproj"
+              },
+              "C:\\Users\\marwa\\OneDrive\\Masaüstü\\pratik\\Deneme\\FootballClubsAPI\\Country.DataTransferObjects\\Catalog.DataTransferObjects.csproj": {
+                "projectPath": "C:\\Users\\marwa\\OneDrive\\Masaüstü\\pratik\\Deneme\\FootballClubsAPI\\Country.DataTransferObjects\\Catalog.DataTransferObjects.csproj"
               }
             }
           }
@@ -132,6 +135,10 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[5.0.17, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[5.0.2, )"
             }
           },
           "imports": [

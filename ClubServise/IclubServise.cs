@@ -12,6 +12,7 @@ namespace Catalog.Business
      public interface IClubServise
     {
         Task<IList<ClubDisplayResponse>> GetClubs();
-        Task<IList<Club>> GetClubsWithAllDetails();
+        Task<Club> GetClubById(int id);
+        Task<IList<Club>> GetClubByName(string name);
     }
 }

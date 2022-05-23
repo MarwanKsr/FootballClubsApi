@@ -15,3 +15,6 @@ C:\Users\marwa\OneDrive\Masaüstü\pratik\Deneme\FootballClubsAPI\Country.DataAc
 C:\Users\marwa\OneDrive\Masaüstü\pratik\Deneme\FootballClubsAPI\Country.DataAccess\obj\Debug\net5.0\Catalog.DataAccess.dll
 C:\Users\marwa\OneDrive\Masaüstü\pratik\Deneme\FootballClubsAPI\Country.DataAccess\obj\Debug\net5.0\ref\Catalog.DataAccess.dll
 C:\Users\marwa\OneDrive\Masaüstü\pratik\Deneme\FootballClubsAPI\Country.DataAccess\obj\Debug\net5.0\Catalog.DataAccess.pdb
+C:\Users\marwa\OneDrive\Masaüstü\pratik\Deneme\FootballClubsAPI\Country.DataAccess\bin\Debug\net5.0\Catalog.DataAccess.runtimeconfig.json
+C:\Users\marwa\OneDrive\Masaüstü\pratik\Deneme\FootballClubsAPI\Country.DataAccess\bin\Debug\net5.0\Catalog.DataAccess.runtimeconfig.dev.json
+C:\Users\marwa\OneDrive\Masaüstü\pratik\Deneme\FootballClubsAPI\Country.DataAccess\obj\Debug\net5.0\Catalog.DataAccess.genruntimeconfig.cache

@@ -10,6 +10,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Country.DataAccess\Catalog.DataAccess.csproj" />
+    <ProjectReference Include="..\Country.DataTransferObjects\Catalog.DataTransferObjects.csproj" />
   </ItemGroup>
 
 </Project>

@@ -1,5 +1,6 @@
 ﻿
 using Catalog.Business;
+using Catalog.DataTransferObjects.Responses;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using System;
@@ -21,19 +22,26 @@ namespace FootballClubsAPI.Controllers
             Servise = clubServise;
         }
 
-        /* [HttpGet]
-        public async Task<IActionResult> GetClubsWithAllDetails()
-        {
-            var clubs = await Servise.GetClubsWithAllDetails();
-            return Ok(clubs);
-        } */
-
         [HttpGet]
         public async Task<IActionResult> GetClubs()
         {
-            var _clubs = await Servise.GetClubs();
-            return Ok(_clubs);
+            var clubs = await Servise.GetClubs();
+            return Ok(clubs);
         }
         
+        [HttpGet("{id}")]
+        public async Task<IActionResult> GetClubById(int id)
+        {
+            var club = await Servise.GetClubById(id);
+            return Ok(club);
+
+        }
+
+        [HttpGet("Search/{Name}")]
+        public async Task<IActionResult> GetClubByName(string Name)
+        {
+            var club = await Servise.GetClubByName(Name);
+            return Ok(club);
+        }
     }
 }

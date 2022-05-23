@@ -39,7 +39,7 @@ namespace FootballClubsAPI
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "FootballClubsAPI", Version = "v1" });
             });
             services.AddScoped<IClubServise, ClubServise>();
-            services.AddScoped<IClubRepository, ClubRepository>();
+            services.AddScoped<IClubRepository, DBClubRepository>();
             services.AddAutoMapper(typeof(MapProfile)); 
             services.AddDbContext<CatalogDbContext>(ops => ops.UseSqlServer(Configuration.GetConnectionString("db")));
         }
