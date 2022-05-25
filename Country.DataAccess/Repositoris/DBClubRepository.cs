@@ -16,6 +16,20 @@ namespace Catalog.DataAccess.Repositoris
         {
             this.context = context;
         }
+
+        public async Task Add(Club entity)
+        {
+            await context.AddAsync(entity);
+            await context.SaveChangesAsync();
+        }
+
+        public async Task Delate(int id)
+        {
+            var club = await context.Clubs.FirstOrDefaultAsync(c => c.Id == id);
+            context.Clubs.Remove(club);
+            await context.SaveChangesAsync();
+        }
+
         public async Task<IList<Club>> GetAll()
         {
             return await context.Clubs.ToListAsync();
@@ -27,9 +41,18 @@ namespace Catalog.DataAccess.Repositoris
             return club;
         }
 
-        
+        public async Task<bool> IsExists(int id)
+        {
+            return await context.Clubs.AnyAsync(c => c.Id == id);
+        }
 
-         async Task<IList<Club>> IClubRepository.GetClubByName(string name)
+        public async Task Update(Club entity)
+        {
+            context.Clubs.Update(entity);
+            await context.SaveChangesAsync();
+        }
+
+        async Task<IList<Club>> IClubRepository.GetClubByName(string name)
         {
             var club = await context.Clubs.Where(c => c.Name.Contains(name)).ToListAsync();
             return club;

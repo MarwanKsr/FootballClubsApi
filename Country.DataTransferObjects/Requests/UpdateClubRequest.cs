@@ -1,26 +1,22 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Catalog.Entities
+namespace Catalog.DataTransferObjects.Requests
 {
-    public class Club : IEntity
+    public class UpdateClubRequest
     {
-        public int Id { get; set; }
-        
-        public Country Country { get; set; }
+        [Required]
         public string Name { get; set; }
         public int? CountryId { get; set; }
         public string? StadiumName { get; set; }
         public string? CoachsName { get; set; }
-        public DateTime? DateOfEstablishment { get; set; }
         public string? PresidentsName { get; set; }
         public int? NumberOfLeagueTitles { get; set; }
         public int? NumberOfCupTitles { get; set; }
         public int? NumberOfChampionsLeagueTitles { get; set; }
-        public string? Logo { get; set; }
-        
     }
 }

@@ -12,5 +12,9 @@ namespace Catalog.DataAccess
     {
         Task<IList<T>> GetAll();
         Task<T> GetById(int id);
+        Task Add(T entity);
+        Task Update(T entity);
+        Task Delate(int id);
+        Task<bool> IsExists(int id);
     }
 }

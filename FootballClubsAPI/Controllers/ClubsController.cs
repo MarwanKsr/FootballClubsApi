@@ -1,6 +1,8 @@
 ﻿
 using Catalog.Business;
+using Catalog.DataTransferObjects.Requests;
 using Catalog.DataTransferObjects.Responses;
+using FootballClubsAPI.Filters;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using System;
@@ -28,7 +30,7 @@ namespace FootballClubsAPI.Controllers
             var clubs = await Servise.GetClubs();
             return Ok(clubs);
         }
-        
+
         [HttpGet("{id}")]
         public async Task<IActionResult> GetClubById(int id)
         {
@@ -42,6 +44,42 @@ namespace FootballClubsAPI.Controllers
         {
             var club = await Servise.GetClubByName(Name);
             return Ok(club);
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> Add(AddClubRequest request)
+        {
+            if (ModelState.IsValid)
+            {
+                int clubId = await Servise.AddClub(request);
+                return CreatedAtAction(nameof(GetClubById), routeValues: new { id = clubId }, value: null);
+            }
+            return BadRequest(ModelState);
+
+        }
+
+        [HttpPut("{id}")]
+        [IsExists]
+        public async Task<IActionResult> Update(int id, UpdateClubRequest request)
+        {
+            
+                if (ModelState.IsValid)
+                {
+                   await Servise.UpdateClub(request);
+                    return Ok();
+                }
+                return BadRequest(ModelState);
+           
+        }
+
+        [HttpDelete("{id}")]
+        [IsExists]
+        public async Task<IActionResult> Delete(int id)
+        {
+           
+                await Servise.DeleteClub(id);
+                return Ok();
+            
         }
     }
 }
